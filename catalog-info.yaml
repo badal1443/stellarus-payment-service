@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-service
+  description: Stellarus payment processing microservice
+  annotations:
+    github.com/project-slug: badal1443/stellarus-payment-service
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - microservice
+    - aks
+spec:
+  type: service
+  lifecycle: experimental
+  owner: delivery-gitops
+  system: interstellar-platform
